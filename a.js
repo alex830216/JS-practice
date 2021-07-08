@@ -1,3 +1,3 @@
-console.log("hi 中文也行");
-console.log('hi 中文也行');
-console.log(`hi 中文也行`);
+a = 2
+console.log(a);
+var a
