@@ -16,7 +16,7 @@
     btn.addEventListener("click", () => {
         const h = document.querySelector("#hi")
         h.innerHTML = "被按了"
-        h.innertext = "被按了"
+        // h.innerText = "被按了"
     })
 
 
