@@ -7,4 +7,13 @@ function printStars(n) {
     }
 }
 
+// better
+// function printStars(n) {
+//     for (var i = 1; i <= n; i++) {
+//         let stars = ""
+//         stars = stars + "*".repeat(i)
+//         console.log(stars)
+//     }
+// }
+
 printStars(18)
