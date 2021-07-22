@@ -1,3 +1,4 @@
+debugger
 document.addEventListener("DOMContentLoaded", () => {
     const btn = document.querySelector("#start-btn")
     btn.addEventListener("click", () => {
