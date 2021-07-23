@@ -15,5 +15,4 @@ console.log(newlists)
 // const lists = [4, 2, 1, 4, 6, 8, 7]
 // console.log( lists.filter( (n) => n > 4) 
 //                   .map( (n) => n ** 2)
-//                   .reduce( (acc, n) => acc = acc + n ,0)
-// )
+//                   .reduce( (acc, n) => acc + n), 0)
