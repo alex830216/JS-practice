@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // 第二步，把移除拉到最上面寫，why???
+    // 第二步，把移除拉到最上面寫，將監聽器加在外面(ul)會比加在裡面(li)好，可以讓裡面不用重複寫
     document.querySelector(".list").addEventListener("click", (e) => {
     // 當我點到的對象的class值是"closeBtn"時，我就移除我點擊對象的父層
       if (e.target.className === "closeBtn") {
@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     // 第一步
     document.querySelector("#productArea").addEventListener("click", (e) => {
+      // 阻止 a 標籤做預設動作(切換頁面) 
       e.preventDefault()
       // link = e.target代表我點擊到的對象
       let link = e.target
